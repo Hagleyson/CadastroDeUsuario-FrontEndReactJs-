@@ -11,7 +11,7 @@ export default (props) => (
   <div className="app">
     <Logo />
     <Nav />
-    <Main />
+    <Main icon="home" title="Início" subtitle="Projeto Cadastro de usuário" />
     <Footer />
   </div>
 );
