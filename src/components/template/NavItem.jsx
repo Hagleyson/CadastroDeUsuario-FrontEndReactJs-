@@ -1,7 +1,9 @@
 import React from "react";
-
-export default (props) => (
-  <a href={props.url}>
-    <i className={`fa fa-${props.icon}`}> </i> {props.desc}
-  </a>
-);
+import { Link } from "react-router-dom";
+export default function NavItem(props) {
+  return (
+    <Link to={props.url}>
+      <i className={`fa fa-${props.icon}`}> </i> {props.desc}
+    </Link>
+  );
+}
