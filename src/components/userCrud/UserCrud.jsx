@@ -117,7 +117,7 @@ export default function UserCrud(props) {
                 <td>{user.id}</td>
                 <td>{user.name}</td>
                 <td>{user.email}</td>
-                <td>
+                <td className="buttonsList">
                   <button
                     className="btn btn-warning"
                     onClick={() => load(user)}
