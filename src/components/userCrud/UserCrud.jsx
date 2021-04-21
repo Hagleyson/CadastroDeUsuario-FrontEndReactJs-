@@ -8,7 +8,7 @@ const headerProps = {
   title: "Usuário",
   subtitle: "Cadastro de usuarios: Incluir, Listar, Alterar e Excluir",
 };
-const baseUrl = "http://localhost:3001/users";
+const baseUrl = "https://hagleysonser.herokuapp.com/users";
 const initialState = {
   user: { name: "", email: "" },
   list: [],
